@@ -1,4 +1,4 @@
-#  Secure Healthcare Network System (Project #11)
+#  Secure Healthcare Network System
 
 This project is a complete design and implementation of a secure, scalable, and robust healthcare network system.
 ![Network Topology](Network_Topology.png)
