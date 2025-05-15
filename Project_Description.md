@@ -1,10 +1,10 @@
-# 🏥 Design and Implementation of a Secure Healthcare Network System 
+#  Design and Implementation of a Secure Healthcare Network System 
 
-## 📄 Case Study
+##  Case Study
 
 A healthcare service provider , specializing in diagnostic tests on blood, urine, and human tissue. The company uses IT solutions to securely access, manage, and deliver its services.
 
-### 📍 Office Setup 
+###  Office Setup 
 
 | Floor | Departments                                         | Users |
 |-------|------------------------------------------------------|-------|
@@ -12,11 +12,11 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 | 36th  | Doctors, Consultancy, Procurement, HR, Finance      | 200 + 300 |
 | 37th  | Corporate Auditors, IT Team                         | 120 + 300 |
 
-> ⚠️ All departments are expected to double in users by 2025.
+>  All departments are expected to double in users by 2025.
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Design a secure, scalable, and redundant enterprise network
 - Meet performance, security, and availability goals
@@ -24,16 +24,16 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 
 ---
 
-## 🧱 Technologies and Design Requirements
+##  Technologies and Design Requirements
 
-### 🌐 Internet Service
+###  Internet Service
 - **ISP**: Airtel connection for public access and internet services
 
-### 🔐 Network Security
+###  Network Security
 - **Firewall**: Cisco ASA 5500-X Series
 - **Security Zones**: LAN, WLAN, VoIP, DMZ (isolated segments)
 
-### 🌍 IP Address Allocation
+###  IP Address Allocation
 
 | Zone   | CIDR Range           |
 |--------|----------------------|
@@ -45,7 +45,7 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 
 ---
 
-### 🖧 Network Equipment
+###  Network Equipment
 
 - **Cisco WAN Router** – Also handles VoIP services
 - **Switches**:
@@ -55,7 +55,7 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 
 ---
 
-### 🗃️ Servers and Storage
+###  Servers and Storage
 
 - **2× HP ProLiant DL38 Gen10**:
   - Virtualization via VMware ESXi
@@ -69,7 +69,7 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 
 ---
 
-### ☁️ Cloud Integration
+###  Cloud Integration
 
 - **AWS Cloud**:
   - For global client services
@@ -78,7 +78,7 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 
 ---
 
-### 📞 Voice and Wireless
+###  Voice and Wireless
 
 - **VoIP**: Cisco Voice Gateways (configured on WAN router)
 - **WLAN**: 
@@ -87,9 +87,9 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 
 ---
 
-## 🧠 Logical Design and Best Practices
+##  Logical Design and Best Practices
 
-### 🛠 Technologies Implemented
+###  Technologies Implemented
 
 - **Cisco Packet Tracer** – Simulation and testing
 - **Hierarchical Design Model** – With redundancy
@@ -109,7 +109,7 @@ A healthcare service provider , specializing in diagnostic tests on blood, urine
 
 ---
 
-### 🧪 Final Testing
+###  Final Testing
 
 The entire system was:
 - **Fully implemented**
@@ -125,15 +125,15 @@ The entire system was:
 
 ---
 
-## 🖼 Network Topology
+##  Network Topology
 
 The following screenshot represents the full topology as implemented:
 
-![Network Topology](../Network_Topology.png)
+![Network Topology](Network_Topology.png)
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project delivers a fully scalable and secure healthcare IT infrastructure, fulfilling all business and technical requirements. It is designed for future growth and high availability, ensuring strong performance in real-world deployments.
 
